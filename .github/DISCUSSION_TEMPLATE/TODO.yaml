@@ -1,11 +1,10 @@
-title: "[TODO] [2025-01-00] 회의록 "
+title: "[TODO] [2025-01-00] 할 일 "
 
 body:
   - type: textarea
-    id: todo
+    id: status
     attributes:
-      lable: TODO
-      description: 팀원 별 해야 할 일 정리
+      label: 할 일
       value: |
         공지원: 
 
@@ -24,4 +23,9 @@ body:
 
         백상민: 
 
+
+        완료된 작업:
+
+
+        진행 중인 작업:
       render: bash
