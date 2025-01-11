@@ -29,3 +29,16 @@ body:
       label: Agenda
       description: 회의에서 논의 사항을 다룹니다.      
       render: bash
+  - type: textarea
+    id: problem
+    attributes:
+      label: 직면한 문제점 및 해결 방법
+      value: |
+        문제점:
+        해결 방법:
+      render: bash
+  - type: textarea
+    id: add
+    attributes:
+      label: 추가로 다루어 보아야 할 사항
+      render: bash
