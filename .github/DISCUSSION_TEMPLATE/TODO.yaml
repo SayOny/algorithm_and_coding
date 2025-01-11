@@ -1,0 +1,26 @@
+title: "[TODO] [2025-01-00] 회의록 "
+
+body:
+  - type: textarea
+    id: todo
+    attributes:
+      description: 팀원 별 해야 할 일 정리
+      value: |
+        공지원: 
+
+
+        김주은: 
+
+
+        류지훈: 
+
+
+        박세연: 
+
+
+        박재현: 
+        
+
+        백상민: 
+
+      render: bash
