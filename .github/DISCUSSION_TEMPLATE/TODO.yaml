@@ -4,6 +4,7 @@ body:
   - type: textarea
     id: todo
     attributes:
+      lable: TODO
       description: 팀원 별 해야 할 일 정리
       value: |
         공지원: 
@@ -19,7 +20,7 @@ body:
 
 
         박재현: 
-        
+
 
         백상민: 
 
