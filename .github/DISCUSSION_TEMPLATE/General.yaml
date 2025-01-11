@@ -1,46 +1,26 @@
-title: "[Meeting minutes] [2025-01-00] 회의록 "
-labels: ["General Introduction"]
-body:
-  - type: textarea
-    id: improvements
-    attributes:
-      label: Top 3 improvements 한글 안되나용
-      description: "What are the top 3 improvements we could make to this project?"
-      value: |
-        1.
-        2.
-        3.
-        ...
-      render: bash
-    validations:
-      required: true
-  - type: markdown
-    attributes:
-      value: |
-        ## Markdown header
-        And some more markdown
-  - type: input
-    id: has-id
-    attributes:
-      label: Suggestions
-      description: A description about suggestions to help you
-    validations:
-      required: true
-  - type: dropdown
-    id: download
-    attributes:
-      label: Which area of this project could be most improved?
-      options:
-        - Documentation
-        - Pull request review time
-        - Bug fix time
-        - Release cadence
-    validations:
-      required: true
-  - type: checkboxes
-    attributes:
-      label: Check that box!
-      options:
-        - label: This one!
-          required: true
-        - label: I won't stop you if you check this one, too
+---
+name: Feature request
+about: Suggest an idea for this project
+title: "[Feature] Your Title Here"
+labels: enhancement
+assignees: ''
+---
+
+
+## 📄 이슈 내용
+
+<!--- 기능에 대한 요약 설명을 작성해 주세요. -->
+
+## 📝 상세 내용
+
+<!--- 기능 추가와 관련된 상세 내용을 작성해 주세요. -->
+
+## ✅ 체크리스트
+
+- [ ] TODO A
+- [ ] TODO B
+- [ ] TODO C
+
+## 📍 레퍼런스
+
+- [Title](https://...)
