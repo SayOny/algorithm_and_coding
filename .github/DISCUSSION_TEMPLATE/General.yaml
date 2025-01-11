@@ -4,7 +4,7 @@ body:
   - type: textarea
     id: improvements
     attributes:
-      label: Top 3 improvements
+      label: Top 3 improvements 한글 안되나용
       description: "What are the top 3 improvements we could make to this project?"
       value: |
         1.
