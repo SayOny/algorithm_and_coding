@@ -27,6 +27,5 @@ body:
     id: agenda
     attributes:
       label: Agenda
-      description: 회의에서 논의 사항을 다룹니다.
-      value: |
+      description: 회의에서 논의 사항을 다룹니다.      
       render: bash
