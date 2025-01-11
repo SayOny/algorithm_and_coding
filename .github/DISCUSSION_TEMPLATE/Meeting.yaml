@@ -8,4 +8,18 @@ body:
     attributes:
       label: 주제
       description: 회의 주제를 적습니다.
-
+  - type: textarea
+    id: status
+    attributes:
+      label: 진행 상황
+      description: 프로젝트 진행 상황 및 업데이트 된 내용을 공유합니다.
+      value: |
+        공지원: 
+        김주은: 
+        류지훈: 
+        박세연: 
+        박재현: 
+        백상민: 
+        완료된 작업:
+        진행 중인 작업:
+      render: bash
